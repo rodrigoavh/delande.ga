@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="zxx" meta charset="UTF-8">
+   <head>
+	  <title>Del Ande, del campo para su mesa</title>
+	  <link rel="shortcut icon" tye=image/png href="images/del ande icono.png">
+       </head>
+   <body bgcolor="#f2f3f4">
+
+<style>
+
+body{
+	margin: 0%;
+	padding: 0%;
+}
+
+@font-face{
+	font-family: 'Stem-Regular';
+	src:url("Fuente/Stem-Regular.otf") format("opentype");
+}
+
+@font-face{
+	font-family: 'Stem-Bold';
+	src:url("Fuente/Stem-Bold.otf") format("opentype");
+}
+
+a{
+	text-decoration-line: none; 
+}
+
+.titulofooter{
+	text-align:left;
+	color:black;
+	letter-spacing: 2px;
+	font-family: 'Stem-Bold';font-size: 12px;
+}
+
+.Titulo{
+	 font-family: 'Stem-Bold';font-size: x-large;
+}
+
+body {
+    font-family: 'Stem-Regular';font-size: 12px;
+}
+ 
+a{
+	display: inline-block;  
+}
+.menucelda{
+	text-decoration: none;
+  margin: auto;  
+	text-align:center;
+	width:150px;
+	background-color:#a0cf67;
+	letter-spacing: 2px;
+	 font-family: 'Stem-Bold';font-size: 16px;
+	 text-decoration: none;
+	 vertical-align: text-bottom;
+	 display:inline-block;
+	 height: 45px; 
+    line-height: 40px;
+}
+ 
+
+   .logo{
+	background-color: #439539;
+	border-radius: 25px;
+	text-align:center;
+	width:190px;
+	height: 130px;
+	border-bottom-color:#439539;
+	border-left-color:#439539;
+	border-right-color:#439539;
+	border-top-color:#439539;
+	border-bottom-style:solid;
+	border-top-style:solid;
+	border-right-style:solid;
+	border-left-style:solid;
+	 font-family: 'Stem-Regular';font-size: 16px;
+}
+.menucelda:hover{
+	background-color: #439539;
+	text-decoration: none;
+}
+
+
+a:hover{
+	
+	text-decoration: none;
+	
+}
+
+.celdainformacion{
+	text-align:center;
+	color:black;
+	 font-family: 'Stem-Regular';font-size: 14px;
+	
+}
+
+.celdainformaciontexto{
+	text-align:center;
+	color:black;
+	 font-family: 'Stem-Regular';font-size: 8.5px;
+	
+}
+
+.celdainformaciontelefono{
+	text-align:center;
+	color:black;
+	 font-family: 'Stem-Regular';font-size: 12px;
+}
+
+
+.estilogris{
+	filter: grayscale(100%);
+	width:10%
+}
+
+.itemfooter{
+	color: black;
+	font-family: 'Stem-Regular';font-size: 12px;
+}
+
+.itemfooter:hover{
+	font-weight: bolder;
+	font-family: 'Stem-Bold';font-size: 12px;
+}
+ 
+.example1 {
+ height: 50px;	
+ overflow: hidden;
+ position: relative;
+}
+.example1 h3 {
+ font-size: 3em;
+ color: limegreen;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+
+ -moz-transform:translateX(110%);
+ -webkit-transform:translateX(110%);	
+ transform:translateX(110%);
+
+ -moz-animation: example1 15s linear infinite;
+ -webkit-animation: example1 15s linear infinite;
+ animation: example1 15s linear infinite;
+}
+
+@-moz-keyframes example1 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes example1 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes example1 {
+ 0%   { 
+ -moz-transform: translateX(100%);  
+ -webkit-transform: translateX(100%);  
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%);  
+ -webkit-transform: translateX(-100%);  
+ transform: translateX(-100%); 
+ }
+}
+
+
+
+.dropbtn { 
+  color: white; 
+  border: none;
+  cursor: hand;
+}
+
+
+.dropbtn:hover, .dropbtn:focus {  
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #439539;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: #439539;
+}
+
+
+.dropdown-content a:hover { }
+
+
+.show {display:block;}
+
+</style>
+
+<script>
+
+function menucapas() { 
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+<table>
+	<tr >
+		
+		<td>
+				<p>      </p>		 
+		</td>
+	
+	</tr>
+	</table>
+
+<table style="width:100%;height:100%;">
+		<tr style="background-color: #f2f3f4; height:75px;">
+		<td >
+		<center>
+				<table   cellspacing="0" cellpadding="0">  
+					<tr>
+						<td id="menu" name="menu" >
+							<div class="menucelda" style="border-top-left-radius:10px; border-bottom-left-radius:10px;">
+									<a href="Empresa.html" style="color:white;height:45px;vertical-align:center;">Empresa</a>
+							</div>
+						</td>
+						<td id="menu" name="menu" > 
+								<div class="menucelda"> 
+									<a   onclick="menucapas()"  class="dropbtn" style="color:white">Productos</a>
+								<div id="myDropdown" class="dropdown-content">
+									<a href="frutas.html" style="border-top-radius:10px; ">Frutas</a>
+									<a href="tuberculos.html">Tub&eacute;rculos</a>
+									<a href="hortalizas.html" style="border-bottom-radius:10px;">Hortalizas</a>
+								</div>
+								</div>
+						</td>
+						<td id="menu" name="menu" class="logo">
+								<a href="index.html">
+						<img src="images/delande.png" style="width:170px;height:85px;"/></a>
+					</div>
+						</td>
+						<td id="menu" name="menu">
+								<div class="menucelda">
+							<a href="Calidad.html" style="color:white">Calidad</a>
+						</div>
+						</td>
+						<td id="menu" name="menu" >
+								<div class="menucelda" style="border-top-right-radius:10px; border-bottom-right-radius:10px;">
+							<a href="Contacto.html" style="color:white">Contacto</a>
+						</div>
+						</td>
+										</tr>
+									</table>
+							<table>
+								<tr >
+									
+									<td>
+											<p>      </p>		 
+									</td>
+								
+								</tr>
+							
+<style>
+		table.GeneratedTable {
+		  width: 100%;
+		  background-color: #ffffff;
+		  border-collapse: collapse;
+		  border-width: 2px;
+		  border-color: #ffcc00;
+		  border-style: solid;
+		  color: #000000;
+		}
+		
+		table.GeneratedTable td, table.GeneratedTable th {
+		  border-width: 2px;
+		  border-color: #ffcc00;
+		  border-style: solid;
+		  padding: 3px;
+		}
+		
+		table.GeneratedTable thead {
+		  background-color: #ffcc00;
+		}
+		</style>
+	
+
+	<table style="width:100%" bgcolor="#f2f3f4">
+	<tr>
+		<td style="width:20%">
+								
+		</td>
+		<td style="width:60%" align="left">
+		<p >
+				<span class="Titulo">Cont&aacute;ctenos</span>
+		</p>
+	    <td style="width:20%">
+							
+	</tr>
+		<table style="width: 60%;" class="celdainformacion">
+		  <thead>
+			  <th class="Titulo"></th>
+			  <th class="Titulo"></th>
+			</tr>
+		  </thead>
+		  <tbody align="left">
+			<tr>
+			  <td>Direcci&oacute;n: Av. de la Marina 2236 Oficina 401, San Miguel</td>
+			  <td><p></p></td>
+			</tr>
+			<tr>
+			  <td>Telefono: <a class="celdainformaciontelefono" href="tel:012720019">+51 610 3500</td>
+			  <td><p></p></td>
+			</tr>
+			<tr>
+			  <td rowspan="7"><a ><img src="images/Imagenes Estudio/Ají Limo.jpg" style="height:245px;"/></a></td>
+			  <td>Envianos un mensaje </td>
+			</tr>
+			<tr>
+					<td class="menucalidad"> 
+							<input type="text" name="nombre" id="nombre" placeholder="Nombre" required="">
+						</td>
+			  <td><p></p></td>
+			</tr>
+			<tr>
+					<td class="menucalidad"> 
+							<input type="text" name="telefono" id="telefono" placeholder="Telefono/Celular" required="">
+						</td>
+						<td class="menucalidad"> 
+								<input type="text" name="email" id="email" placeholder="Correo" required="">
+							</td>
+			</tr>
+			<tr>
+			  <td>Mensaje</td>
+			  <td><p></p></td>
+			</tr>
+			<tr>
+					<td class="menucalidad"> 
+							<textarea id="mensaje" name="Mensaje"></textarea>
+						</td>
+						<td><p></p></td>
+			  
+			</tr>
+			<tr>
+					<td class="celdainformaciontexto">*Todos los campos son obligatorios</td>
+			  <td><p></p></td>
+			</tr>
+			<tr>
+					<td><button type="submit" class="btn"> Enviar Mensaje</button>
+					</td>
+					<td><p></p>
+					</td>
+					
+			</tr>
+		  </tbody>
+		
+														
+
+					<form action="http://www.bit-cero.com/eportal/email.php" method="POST" >
+					</table>
+					<table>
+						<tr >
+							
+							<td>
+									<p>      </p>		 
+							</td>
+						
+						</tr>
+						</table>
+					</table>
+					<table>
+						<tr >
+							
+							<td>
+									<p>      </p>		 
+							</td>
+						
+						</tr>
+						</table>
+					</table>
+					<table>
+						<tr >
+							
+							<td>
+									<p>      </p>		 
+							</td>
+						
+						</tr>
+						</table>
+					</table>
+					<table>
+						<tr >
+							
+							<td>
+									<p>      </p>		 
+							</td>
+						
+						</tr>
+						</table>
+					</table>
+					<table>
+						<tr >
+							
+							<td>
+									<p>      </p>		 
+							</td>
+						
+						</tr>
+						</table>
+					</table>
+					<table>
+						<tr >
+							
+							<td>
+									<p>      </p>		 
+							</td>
+						
+						</tr>
+						</table>
+					
+						<table style="width:100%">
+								<tr>
+										<td style="width:20%">
+										</td>
+	
+										<td style="width:30%; vertical-align: top;">
+											<span class="titulofooter"  >Mapa de Sitio</span>
+											<br>
+											<ul>
+												<li> <a class="itemfooter" href="index.html">Inicio </a> </li>
+												<li> <a  class="itemfooter" href="Empresa.html">Empresa </a> </li>
+												<li> <a  class="itemfooter" href="Productos.html">Productos </a> </li>
+												<li> <a class="itemfooter" href="Calidad.html">Calidad </a> </li>
+												<li> <a  class="itemfooter" href="Contacto.html">Contacto </a> </li>
+											</ul>
+							
+										</td>
+										
+										<td style="width:30%;vertical-align: top;"> 
+												<span class="titulofooter" >Contactos</span>
+												<br>
+												<ul>
+													<li> Direcci&oacute;n: Av. de la Marina 2236 Oficina 401, San Miguel </li>
+													<li> Telefono: <a class="itemfooter" href="tel:012720019">+51 610 3500</a></li>
+												</ul>
+										</td>
+										
+										<td style="width:20%;">
+	
+										</td>
+								</tr>
+							</table>
+
+						<p style="text-align:center;">
+						&copy; 2019 Del Ande | Lima - Per&uacute;
+						</p>
+					</td>
+					<tr>
+		</table>
+
+   </body>
+</html>
